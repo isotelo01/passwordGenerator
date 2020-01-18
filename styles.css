@@ -1,0 +1,110 @@
+
+body{
+    background-color: rgb(221, 228, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+i{
+    text-decoration: underline;
+}
+.container{
+    
+    background-image: url(img/wooden-grain-texture-set-02.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    border-radius: 1rem;
+    padding: 3rem;
+    height: 25rem;
+    display: flex;
+    border: groove gray;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(24, 245, 3, 0.563),
+                5px 5px 10px rgb(99, 159, 99);
+
+    
+}
+.result-container {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+}
+
+.result-container #result {
+  	word-wrap: break-word;
+	max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 40px;
+	width: 40px;
+} 
+.btn {
+    border: none;
+    border-radius: 2rem;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 8px 12px;
+	background-color: rgb(99, 159, 99);
+}
+.form{
+ display: grid;
+ grid-template-columns: auto auto;
+ row-gap: 1rem;
+ column-gap: 3rem;
+}
+.title{
+    margin: 0;
+    text-align: center;
+}
+.amountInput{
+ display: flex;
+ align-items: center;
+}
+.numberImput{
+   width: 30px; 
+}
+.passwordDisplay{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 1px solid black;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: 1rem;   
+}
+.generateButton{
+    grid-column: span 2;
+    background-color: rgb(99, 159, 99);
+    color: whitesmoke;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: inset .5rem;
+    color: rgb(246, 249, 246);
+}
+.generateButton:hover{
+    background-color: rgb(82, 89, 88);
+    transition: 1s;
+}
